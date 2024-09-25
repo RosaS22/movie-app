@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import MovieList from './MovieList';
+import './App.css'; // Import the CSS file
 
-function App() {
+// Main App component: Entry point of the application
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container"> {/* Apply the CSS class */}
+      <h1>Movie Review App</h1> {/* Title of the application */}
+      <MovieList /> {/* Renders the list of movies */}
     </div>
   );
-}
+};
 
 export default App;

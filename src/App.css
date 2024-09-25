@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  background-color: lightgray; /* Light gray background */
+  padding: 20px;
+  min-height: 100vh; /* Full height of the viewport */
+}
+
+.movie-item {
+  border: 2px solid #ccc; /* Light gray border */
+  padding: 20px;
+  margin-bottom: 20px; /* Adds space between movies */
+  border-radius: 10px; /* Optional: rounded corners */
+  background-color: #b6c6e6; /* Optional: light background */
+}
