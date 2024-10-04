@@ -31,7 +31,7 @@ const ReviewForm = ({ addReview }) => {
         required
       />
       <br></br>
-      <button className="submitButton" type="submit">Submit Review</button> {/* Submit button */}
+      <button className="submitButton" type="submit">Submit Review</button> {/* Submit button with css styling */}
     </form>
   );
 };

@@ -17,7 +17,7 @@ const Movie = ({ movie }) => {
   
 
   return (
-    <div className="movie-container">
+    <div className="movie-container"> {/*container for movie cards*/}
     <div className="movie-card">
       <div className="card shadow cardWidth">
       <img src={movie.image} alt={movie.title} />
