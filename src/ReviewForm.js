@@ -30,7 +30,8 @@ const ReviewForm = ({ addReview }) => {
         placeholder="Leave your review here"
         required
       />
-      <button type="submit">Submit Review</button> {/* Submit button */}
+      <br></br>
+      <button className="submitButton" type="submit">Submit Review</button> {/* Submit button */}
     </form>
   );
 };

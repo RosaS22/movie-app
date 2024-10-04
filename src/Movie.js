@@ -4,6 +4,7 @@ import ReviewList from './ReviewList';
 import ReviewForm from './ReviewForm';
 
 
+
 // Movie component: Displays details of a single movie
 const Movie = ({ movie }) => {
   const [reviews, setReviews] = useState(movie.reviews); // Manage local stat for reviews
@@ -16,13 +17,19 @@ const Movie = ({ movie }) => {
   
 
   return (
-    <div>
-      <h2>{movie.title}</h2>
+    <div className="movie-container">
+    <div className="movie-card">
+      <div className="card shadow cardWidth">
       <img src={movie.image} alt={movie.title} />
+      <div className="card-body h-100">
+      <h2 className="text-center">{movie.title}</h2>
       <p>{movie.synopsis}</p>
       <Stars rating={movie.rating} />
       <ReviewList reviews={reviews} />
       <ReviewForm addReview={addReview} />
+    </div>
+    </div>
+    </div>
     </div>
   );
 };

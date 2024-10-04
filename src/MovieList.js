@@ -27,6 +27,14 @@ const movies = [
     rating: 4,
     reviews: [],
   },
+  {
+    id: 4,
+    title: 'Deadpool',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYH4dLUYH6OaxVuRqBGST_d5H46riDgvELQw&s',
+    synopsis: 'Wade Wilson (Ryan Reynolds) is a former Special Forces operative who now works as a mercenary. His world comes crashing down when evil scientist Ajax (Ed Skrein) tortures, disfigures and transforms him into Deadpool. The rogue experiment leaves Deadpool with accelerated healing powers and a twisted sense of humor. With help from mutant allies Colossus and Negasonic Teenage Warhead (Brianna Hildebrand), Deadpool uses his new skills to hunt down the man who nearly destroyed his life.',
+    rating: 5,
+    reviews: [],
+  },
 
 
   // Add more movies as needed
